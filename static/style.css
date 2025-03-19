@@ -1,0 +1,36 @@
+:root {
+    --purple-light: #f2f2ff;
+    --purple-dark: #2b1942;
+    --purple-bright: #5000d4;
+    --white: #ffffff;
+}
+ 
+h1 {
+    color: var(--purple-dark);
+}
+ 
+.main-container {
+    background-color: var(--purple-light);
+}
+ 
+.card {
+    border: 0;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+}
+ 
+.eyebrows {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--purple-dark);
+}
+ 
+.btn {
+    background: linear-gradient(180deg, #7d5eef .78%, #5000d4 163.28%);
+    background-color: var(--purple-bright);
+    border-color: var(--purple-bright);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 2rem;
+}
+ 
